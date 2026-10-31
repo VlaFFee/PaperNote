@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="papernote"
+version="1.0.0"
+displayName="Paper Note"
+description='''
+Креативная записка: ПКМ открывает листок с текстом и фотографией.
+Редактировать может только игрок в творческом режиме, остальные могут лишь читать.
+Фото берутся из папки papernote_photos в папке игры.
+'''
+
+[[dependencies.papernote]]
+modId="forge"
+mandatory=true
+versionRange="[47.2.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.papernote]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
